@@ -1,0 +1,170 @@
+body
+{
+    background-color:#190404;
+    
+}
+header
+{
+    text-align: center;
+    background-color:black;
+    border-bottom: 2px solid gold;
+    height=20%;
+}
+#emblema_mercedes
+{
+    width: 20%;
+    height:20%;
+}
+nav
+{
+   float:left;
+    padding:30px;
+    width:10%;
+    height: 42%;
+    font-size: 1.5vw;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    background-image: url(imagini/3.jpg);
+    color:gold;
+    
+    
+    
+    
+    
+}
+.imagini_pagina
+{
+    width:60%;
+    height:50%;
+}
+a:link {
+    color:gold;
+    text-decoration: none;
+    visibility: visible;
+}
+a:visited {
+    color: gold;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+    background-color: transparent;
+    text-decoration:underline;
+}
+a:active {
+    color: gold;
+    background-color: transparent;
+    
+
+}
+#meniu_drop
+{
+  float:right; 
+    font-size: 1.5vw;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    background-image: url(imagini/3.jpg);
+    color:gold;  
+    text-align: center;
+    margin-right:2vw;
+    
+
+}
+section
+{
+    background-color:transparent;
+    
+    margin-top: 0px;
+    border-bottom: 1px solid gold;
+    color:gold;
+    font-size:1.4vw;
+       
+}
+#modele_mercedes
+{
+    float:right;
+    width:150px;
+    height:500px;
+    
+   background-color: black; 
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: gold;
+    font-size: 1.9vw;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position:static;
+    text-align: center;
+    background-image:url(imagini/3.jpg);
+    min-width: 2vw;
+    
+    z-index: 8;
+}
+
+.dropdown-content a {
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+}
+.dropdown-content a:hover {background-color:black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:transparent;}
+
+#lista_ordonata
+{
+    float:left;
+    font-size:1.3vw;
+    color:white;
+}
+#lista_neordonata
+{
+    
+    font-size:1.3vw;
+    color:white;
+    
+}
+.paragraf
+{
+    font-size:1.2vw;
+}
+
+#modele
+{
+    color:white;
+    
+}
+#modele0
+{
+    color:white;
+    
+}
+#div1
+{
+    float:right;
+    width:300px;
+    align-content:center;
+    display:flex;
+    flex-flow: column;
+}
+#div2
+{
+  float:left;
+    width:300px;
+    align-content:center;
+    display:flex;
+    flex-flow: column;  
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ro">
+        
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta  charset="utf-8" >
+    
+    <title>"Top"</title>
+    
+    <link href="index.css" rel="stylesheet">  
+    
+<script  src="index_java.js"></script>
+    
+</head>
+    
+<body>
+   
+    <header>
+        <h1 id="titlu_pagina">Top Cars</h1> 
+    </header>
+
+    <aside id="asside_left">
+        <nav id="Home"> 
+            <p class="meniu"><a href="#home">Home</a></p>
+            <p class="meniu"><a href="Mercedes.html"> Mercedes Benz</a></p>
+            <p class="meniu"><a  href="BMW.html">BMW</a></p>
+            <p class="meniu"><a href="volkswagen.html">Volkwagen</a></p>
+            <p class="meniu"><a href="https://www.audi.ro/" target="_blank">Audi</a></p>
+        </nav>
+        
+        <br><br>
+        
+        <form>
+            <p >Alegerea dumneavoastra</p>
+    
+            <div id="sondaj">
+                <input type="radio" name="Mercedes Benz" value="Mercedes Benz">Mercedes Benz<br>
+                <input type="radio" name="BMW" value="BMW" >BMW <br>
+                <input type="radio" name="Audi" value="Audi">Audi<br>
+                <input type="radio" name="Volkwagen" value="Volkwagen" >Volkwagen <br>
+                <input type="radio" name="Ford"  >Ford <br>
+                <input type="radio" name="Opel"  >Opel<br>
+                <input type="radio" name="Mazda"  >Mazda<br>
+                <input type="radio" name="Dacia"  >Dacia<br>
+                <input type="radio" name="Renault"  >Renault<br>
+                <input type="radio" name="Skoda"  >Skoda<br>
+                <input type="radio" name="Citroen"  >Citroen<br>
+                <input type="radio" name="Volvo"  >Volvo<br>
+                <input type="radio" name="Fiat"  >Fiat<br>
+                <input type="radio" name="Jaguar"  >Jaguar<br>
+                <br><br>
+      
+            </div>
+            <input id="button_submit2" type="button" value="Submit" onclick="Submit1()">
+            
+        </form>
+        
+    </aside>
+    
+    <aside id="asside_right">
+        <form id="form_right">
+            <p id="log_in">LOG IN</p>
+            <p class="nume_parola">Nume: </p>
+            <input id="name" type="text" name="nume" value="Name">
+            <p class="nume_parola">Parola: </p>
+            <input id="pass" type="password" name="parola" value="">
+            <br><br>
+            <input id="button_submit1" type="button" value="Submit" onclick="Submit2()">
+            <br>
+        </form>
+<button onclick="delete_function()" class="button_function">"Delete image"</button>
+  <button class="button_function" onclick="create_function()">Show a paragraf</button> 
+        <div id="div1">
+        </div>
+    
+        <button  id="buton_schimbare" onclick="schimbareCuloareTabel()">Click here to change color in table</button>
+    </aside>
+    
+    <section id="sectiunea0">
+        <h3 class="mini_titlu">Prezentare generala</h3>
+        <p id="p0">
+            Automobilul, sau mai familiar mașina, este un vehicul cu patru (rar, trei, șase) roți, acționat de un motor cu ardere internă, cu abur, cu electricitate sau aer comprimat. Are scaune pentru conducător și pentru cel puțin un pasager. 
+            Automobilele sunt de obicei construite pentru a călători pe drumuri, dar există unele, mai ales vehicule utilitare, care permit călătorii în afara drumurilor - (off-road). Drumurile și autostrăzile sunt folosite în comun cu alte vehicule, cum sunt motocicletele și tractoarele. 
+            Un automobil tipic are un motor cu ardere internă și patru roți, însă au apărut pe piață și mașini cu motoare hibride, cu gaz sau electrice. Au fost construite și autovehicule cu trei roți, dar nu sunt prea răspândite din cauza problemelor de stabilitate. 
+            În anul 2007 în lume existau aproape 800 de milioane de mașini în circulație (majoritatea în emisfera nordică) iar 42 de milioane de mașini noi erau produse în fiecare an. În anul 2050 se aproximează că vor exista 4 miliarde de automobile la nivel mondial.
+        
+        </p>
+        
+        <img id="img1" src="imagini/4.jpg" alt="Masina">
+    </section>
+ 
+    <section class="sectiunea1">
+        <h3 class="mini_titlu">Scurt istoric</h3>
+        <p>
+            În 1769, francezul Nicolas-Joseph Cugnot realizează un vehicul cu trei roți propulsat prin forța aburului. În 1801, englezul Richard Trevithick realizează un fel de locomotivă, numită Puffing Devil, dar care putea circula și pe drumurile rutiere. 
+            Contribuții de pionierat în domeniul motoarelor cu ardere internă au adus: Nicéphore Niépce, François Isaac de Rivaz, Gustave Trouvé și alții. Însă inventatorul automobilului în accepția modernă este considerat Karl Benz. În 1878, acesta proiectează un nou tip de motor cu ardere internă, mult îmbunătățit și care va fi patentat un an mai târziu. 
+        </p>
+        
+        <video id="video1"  controls>
+        <source src="video/video1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        
+    </section>
+    
+    <article>
+        <h3 class="mini_titlu">Tabel informatii companii</h3>
+        <table id="tabel">
+            <tr>
+                <th>Marca</th>
+                <th>Anul Infiintarii</th> 
+                <th>Numar de modele</th>
+                <th>Capital</th>
+            </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>1901</td> 
+                <td>53</td>
+                <td>1.234.324 $</td>
+            </tr>
+            <tr>
+                <td>BMW</td>
+                <td>1887</td> 
+                <td>72</td>
+                <td>1.003.211 $</td>
+            </tr>
+            <tr>
+                <td>Audi</td>
+                <td>1942</td> 
+                <td>32</td>
+                <td>934.924 $</td>
+            </tr>
+            <tr>
+                <td>Volkwagen</td>
+                <td>1941</td> 
+                <td>48</td>
+                <td>1.034.324 $</td>
+            </tr>
+        </table> 
+        
+    </article>
+    
+    <footer>
+        <p>Date de contact:</p><hr>
+        <p>Decuseara Andrei-Cristi</p>
+        <p id="change">Telefon: 0786943456</p>
+        <p>Email:andreidecuseara@ymail.com</p>
+        <button id="buton1" onclick="changeButton1()" type="button" >Show another phone number</button>
+        <p id="demo"></p>
+    </footer>
+    
+</body>
+      
+</html>

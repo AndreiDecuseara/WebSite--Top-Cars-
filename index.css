@@ -1,0 +1,211 @@
+body{
+    background-image: url("imagini/2.jpg");
+    font-family: "Times New Roman", Times, serif;
+    
+}
+header
+{
+    font-family: "Times New Roman", Times, serif;
+    margin:0px;
+    height:auto;
+    width:100%;
+    border-bottom: 2px solid gold;
+    
+   
+}
+
+#asside_left
+{
+    float:left;
+    width:14%;
+    height: 60%;
+    background-image: url(imagini/3.jpg);
+    color:gold;
+    font-size: 25px;
+    text-align: center;        
+}
+nav
+{
+    border-bottom: 2px solid gold;
+}
+
+#asside_right
+{
+    float:right;
+    width:14%;
+    height: 60%;
+    background-image: url(imagini/3.jpg);
+    color:gold;
+    font-size:2vw;
+    text-align: center;
+    
+        
+}
+#log_in
+{
+    text-align: center;
+    font-size:1.5vw;
+}
+#nume_parola
+{   
+    font-size:1.5vw;
+}
+#button_submit1
+{
+  
+    font-size:1.2vw;
+}
+#sondaj
+{   
+    text-align: left;
+    font-size:1.2vw;  
+}
+#button_submit2
+{
+   font-size:1.2vw;
+}
+.sectiunea1
+{
+    color:white;
+    font-size: 25px;
+    text-align:center;
+    background-color:#405264;
+    margin-top: 0px;
+    border-bottom: 1px solid gold;
+}
+#sectiunea0
+{
+    color:white;
+    font-size: 25px;
+    text-align:center;
+    background-color:#405264;
+    margin-top: 0px;
+    border-bottom: 1px solid gold;
+}
+.mini_titlu
+{
+    margin:0px;
+    font-size:2.2vw;
+    color:red;
+    text-align: center;
+    
+}
+#music_title
+{
+    text-align:center;
+    font-size:1.5vw;
+    color:gold;
+}
+#form_right
+{
+    padding-bottom: 5px;
+    border-bottom:solid 2px gold;
+}
+footer
+{
+  
+    padding:10px;
+    font-size: 18px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    background-image: url(imagini/3.jpg);
+    color:gold; 
+    text-align: left;
+    font-size:1.5vw;
+}
+#music_buttons
+{ 
+    text-align:center;
+}
+.butoane
+{
+    padding:3px;
+    color:gold;
+    font-size:1.3vw;
+    background-color:black;
+    border:solid 2px gold;
+    margin:10px;
+}
+.meniu a:link {
+    color:gold;
+    text-decoration: none;
+}
+.meniu a:visited {
+    color: gold;
+    background-color: transparent;
+    text-decoration: none;
+}
+ .meniu a:hover {
+    color:gold;
+    font-style: oblique; 
+}
+.meniu a:active {
+    color: gold;
+    background-color:transparent;
+    
+}
+
+#img1
+{
+     width:30%;
+    
+}
+p
+{
+    font-size:1.3vw;
+}
+@media screen and (max-width: 800px) {
+  #asside_right #asside_left {
+    width: 8%;
+      height:
+  }
+}
+#tabel
+
+{
+    width:70%;
+    color:white;
+    background-color: black;
+    text-align:center;
+    border:2px solid gold;
+    margin:auto;
+    font-size: 1.5vw;
+}
+#buton_schimbare
+{
+    color:gold;
+    font-size:1vw;
+    margin-top:300px;
+}
+h1
+{
+    color:gold;
+    text-align: center;
+    font-size:4vw;
+}
+
+.button_function
+{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+    color:gold;
+}
+#buton1
+{
+    font-size: 1.1vw;
+}
+
+#name
+{
+    font-size:0.9vw;
+}
+#pass
+{
+    font-size:0.9vw;
+}
+
+#video1
+{
+   width:40%; 
+}
